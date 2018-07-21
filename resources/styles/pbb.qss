@@ -1,0 +1,229 @@
+TextLabel,
+QLabel {
+    color: #caccd1;
+}
+
+#chatPage,
+#chatPage > * {
+    background-color: #000;
+}
+
+#sideBar {
+    border: none;
+    border-right: 1px solid #202228;
+    border-left: 1px solid #202228;
+}
+
+TimelineView,
+TimelineView > * {
+    background-color: #202228;
+}
+
+QuickSwitcher {
+    background-color: #202228;
+}
+
+InfoMessage {
+    qproperty-textColor: #caccd1;
+    qproperty-boxColor: rgba(45, 49, 57, 120);
+}
+
+SuggestionsPopup {
+    background-color: #202228;
+}
+
+PopupItem {
+    background-color: #202228;
+    qproperty-hoverColor: rgba(45, 49, 57, 120);
+}
+
+RoomList,
+RoomList > * {
+    background-color: #2d3139;
+}
+
+CommunitiesList,
+CommunitiesList > * {
+    background-color: #2d3139;
+}
+
+FlatButton {
+    qproperty-foregroundColor: #727274;
+    qproperty-backgroundColor: #333;
+}
+
+FileItem {
+    qproperty-textColor: #caccd1;
+    qproperty-backgroundColor: #2d3139;
+    qproperty-iconColor: #caccd1;
+}
+
+AudioItem {
+    qproperty-textColor: #caccd1;
+    qproperty-backgroundColor: #2d3139;
+    qproperty-iconColor: #caccd1;
+}
+
+RaisedButton {
+    qproperty-foregroundColor: #caccd1;
+    qproperty-backgroundColor: #333;
+}
+
+RoomInfoListItem {
+    qproperty-highlightedBackgroundColor: #4d84c7;
+    qproperty-hoverBackgroundColor: rgba(57,103,158, 100) ;
+    qproperty-backgroundColor: #2d3139;
+
+    qproperty-titleColor: #e4e5e8;
+    qproperty-subtitleColor: #caccd1;
+
+    qproperty-highlightedTitleColor: #f4f4f5;
+    qproperty-highlightedSubtitleColor: #e4e5e8;
+
+    qproperty-btnColor: #414A59;
+    qproperty-btnTextColor: white;
+
+    qproperty-timestampColor: #727274;
+    qproperty-highlightedTimestampColor: #e7e7e9;
+
+    qproperty-avatarBgColor: #202228;
+    qproperty-avatarFgColor: white;
+
+    qproperty-bubbleFgColor: white;
+    qproperty-bubbleBgColor: #4d84c7;
+}
+
+CommunitiesListItem {
+    qproperty-highlightedBackgroundColor: #4d84c7;
+    qproperty-hoverBackgroundColor: rgba(57,103,158, 100);
+    qproperty-backgroundColor: #2d3139;
+
+    qproperty-avatarBgColor: #202228;
+    qproperty-avatarFgColor: white;
+}
+
+LoadingIndicator {
+    qproperty-color: #caccd1;
+}
+
+UserInfoWidget, UserInfoWidget > * {
+    background-color: #2d3139;
+    color: #b0b3ba;
+}
+
+UserInfoWidget {
+    border: none;
+    qproperty-borderColor: #202228;
+}
+
+UserSettingsPage {
+    background-color: #202228;
+}
+
+#UserSettingScrollWidget {
+    background-color: #202228;
+}
+
+Avatar {
+    qproperty-textColor: white;
+    qproperty-backgroundColor: #2d3139;
+}
+
+#displayNameLabel {
+    color: #f2f2f2;
+}
+
+#userIdLabel {
+    color: #f2f2f2;
+}
+
+dialogs--Logout,
+dialogs--ReCaptcha,
+dialogs--LeaveRoom,
+dialogs--CreateRoom,
+dialogs--RoomSettings,
+dialogs--InviteUsers,
+dialogs--ReadReceipts,
+dialogs--JoinRoom,
+dialogs--MemberList,
+dialogs--PreviewUploadOverlay,
+dialogs--UserProfile,
+dialogs--CreateRoom > QLineEdit,
+dialogs--InviteUsers > QLineEdit,
+EditModal,
+dialogs--JoinRoom > QLineEdit {
+    background-color: #202228;
+    color: #caccd1;
+}
+
+TopSection {
+    qproperty-textColor: #caccd1;
+}
+
+QListWidget,
+WelcomePage,
+LoginPage,
+RegisterPage {
+    background-color: #202228;
+    color: #caccd1;
+}
+
+emoji--Panel,
+emoji--Panel > * {
+    background-color: #202228;
+    color: #caccd1;
+}
+
+emoji--Category,
+emoji--Category > * {
+    background-color: #2d3139;
+    color: #caccd1;
+}
+
+FloatingButton {
+    qproperty-backgroundColor: #2d3139;
+    qproperty-foregroundColor: white;
+}
+
+TextField {
+    qproperty-backgroundColor: #202228;
+    qproperty-inkColor: #caccd1;
+    qproperty-labelColor: #caccd1;
+}
+
+ScrollBar {
+    qproperty-handleColor: #2d3139;
+    qproperty-backgroundColor: #202228;
+}
+
+SideBarActions {
+    border: none;
+    qproperty-borderColor: #202228;
+    background-color: #2d3139;
+}
+
+TopRoomBar {
+    border: none;
+    qproperty-borderColor: #202228;
+    background-color: #2d3139;
+}
+
+QLineEdit {
+    background-color: #202228;
+    color: #caccd1;
+}
+
+TextInputWidget,
+TextInputWidget > QTextEdit,
+TextInputWidget > QLineEdit {
+    qproperty-borderColor: #202228;
+    background-color: #2d3139;
+    color: #caccd1;
+}
+
+Toggle {
+    qproperty-activeColor: #38a3d8;
+    qproperty-disabledColor: gray;
+    qproperty-inactiveColor: gray;
+    qproperty-trackColor: rgb(240, 240, 240);
+}

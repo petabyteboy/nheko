@@ -67,6 +67,9 @@ UserSettings::applyTheme()
         } else if (theme() == "dark") {
                 stylefile.setFileName(":/styles/styles/nheko-dark.qss");
                 pal.setColor(QPalette::Link, QColor("#d7d9dc"));
+        } else if (theme() == "pbb") {
+                stylefile.setFileName(":/styles/styles/pbb.qss");
+                pal.setColor(QPalette::Link, QColor("#dadada"));
         } else {
                 stylefile.setFileName(":/styles/styles/system.qss");
         }
